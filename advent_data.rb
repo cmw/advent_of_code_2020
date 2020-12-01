@@ -8,7 +8,7 @@ class AdventData
   end
 
   def get
-    uri = URI.parse("https://adventofcode.com/2019/day/#{day}/input")
+    uri = URI.parse("https://adventofcode.com/2020/day/#{day}/input")
     request = Net::HTTP::Get.new(uri)
     request['Cookie'] = "session=#{session}"
 
