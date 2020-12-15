@@ -3,8 +3,6 @@ require_relative 'advent_data'
 data = AdventData.new(day: 12).get
 
 class Boat
-  attr :compass
-
   def initialize
     @lng_distance = 0 # +e -w
     @lat_distance = 0 # +n -s
